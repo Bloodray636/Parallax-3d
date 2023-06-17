@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parallax</title>
+        <!--CSS-->
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<!--Bootstrap CSS-->
+		<link href="css/bootstrap.min.css" rel="stylesheet" >
+    </head>
+    <body>
+
+        <div class="logo" style="background-image: url(img/logo.png);"></div>
+
+        <section class="layers">
+            <div class="layers__container">
+                <div class="layers__item layers-1" style="background-image: url(img/layer_1.png);"></div>
+                <div class="layers__item layers-2" style="background-image: url(img/layer_2.png);"></div>
+                <div class="layers__item layers-3">
+                    <div class="hero-content">
+                        <h1>Natural more <span>HTML / CSS</span></h1>
+                        <div class="hero-content__p">Creating a beautiful 3D website with a ‘lens effect’</div>
+                        <button class="btn btn-start">Start learning</button>
+                    </div>
+                </div>
+                <div class="layers__item layers-4">
+                  <canvas class="rain"></canvas>
+                </div>
+                <div class="layers__item layers-5" style="background-image: url(img/layer_5.png);"></div>
+                <div class="layers__item layers-6" style="background-image: url(img/layer_6.png);"></div>
+            </div>
+        </section>
+
+    </body>
+
+    <!--JQuery link-->
+	<script src="js/jquery.js" defer></script>
+	<!--Bootstrap JS-->
+	<script src="js/bootstrap.bundle.min.js" defer></script>
+    <!--Rain-->
+    <script src="libs/rain.js" defer></script>
+	<!--JS-->
+	<script src="js/script.js" defer></script>
+</html>
